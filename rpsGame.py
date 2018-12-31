@@ -33,9 +33,9 @@ while again:
 
         else:
             print("Computer chose " + x.upper() + " you chose " + y.upper() + " so YOU won.")
-    oyna = input("Do you want to play again? >  ")
+    play = input("Do you want to play again? >  ")
 
-    if oyna == "no":
+    if play == "no":
         again = False
 
 
